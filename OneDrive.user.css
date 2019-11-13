@@ -1,35 +1,41 @@
-.od-BasePage,
-.od-ItemTile2-icon {
-    filter: invert(0.92);
-    background-color: white;
-}
+@-moz-document domain("onedrive.live.com") {
+	.od-BasePage,
+	.od-ItemTile2-icon {
+		filter: invert(0.92);
+		background-color: white;
+	}
 
-/* Context Menus */
-.ms-ContextualMenu-Callout.css-51,
-.ms-ContextualMenu-Callout.css-52,
-.ms-ContextualMenu-Callout.css-46,
-.ms-ContextualMenu-Callout.css-47 {
-    filter: invert(0.92);
-}
+	/* Context Menus */
+	.ms-ContextualMenu-Callout.css-51,
+	.ms-ContextualMenu-Callout.css-52,
+	.ms-ContextualMenu-Callout.css-46,
+	.ms-ContextualMenu-Callout.css-47 {
+		filter: invert(0.92);
+	}
 
-/* Invert User Avatar Back */
-.od-ItemTile2-icon img {
-    filter: invert(1);
-}
-.ms-Tile-link {
-    filter: invert(1);
-}
-.ms-Tile-link * {
-    color: white;
-}
-div._14ggU2yZvNol5U91gfmYQA img {
-    filter: invert(1);
-}
+	/* Invert User Avatar Back */
+	.od-ItemTile2-icon img {
+		filter: invert(1);
+	}
 
-/* Removes Drag Files Here Hint */
-img.od-DragAndDropHint-file {
-    display: none;
-}
-.od-DragAndDropHint-text.od-DragAndDropHint-text--grid {
-    display: none;
+	.ms-Tile-link {
+		filter: invert(1);
+	}
+
+	.ms-Tile-link * {
+		color: white;
+	}
+
+	div._14ggU2yZvNol5U91gfmYQA img {
+		filter: invert(1);
+	}
+
+	/* Removes Drag Files Here Hint */
+	img.od-DragAndDropHint-file {
+		display: none;
+	}
+
+	.od-DragAndDropHint-text.od-DragAndDropHint-text--grid {
+		display: none;
+	}
 }
