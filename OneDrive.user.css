@@ -5,14 +5,6 @@
 		background-color: white;
 	}
 
-	/* Context Menus */
-	.ms-ContextualMenu-Callout.css-51,
-	.ms-ContextualMenu-Callout.css-52,
-	.ms-ContextualMenu-Callout.css-46,
-	.ms-ContextualMenu-Callout.css-47 {
-		filter: invert(0.92);
-	}
-
 	/* Invert User Avatar Back */
 	.od-ItemTile2-icon img {
 		filter: invert(1);
