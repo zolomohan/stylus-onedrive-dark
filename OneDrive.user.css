@@ -1,33 +1,33 @@
 @-moz-document domain("onedrive.live.com") {
-	.od-BasePage,
-	.od-ItemTile2-icon {
-		filter: invert(0.92);
-		background-color: white;
-	}
-
-	/* Invert User Avatar Back */
-	.od-ItemTile2-icon img {
-		filter: invert(1);
-	}
-
-	.ms-Tile-link {
-		filter: invert(1);
-	}
-
-	.ms-Tile-link * {
-		color: white;
-	}
-
-	div._14ggU2yZvNol5U91gfmYQA img {
-		filter: invert(1);
-	}
-
-	/* Removes Drag Files Here Hint */
-	img.od-DragAndDropHint-file {
-		display: none;
-	}
-
-	.od-DragAndDropHint-text.od-DragAndDropHint-text--grid {
-		display: none;
-	}
+  .od-BasePage,
+  .ms-Callout,
+  .od-ItemTile2-icon {
+      filter: invert(0.92);
+      background-color: white;
+  }
+  
+  .ms-Image img,
+  /* File/Folder Tiles */
+  .ms-Tile-link,
+  .od-ItemTile2-icon img,
+  /* PDF Reader */
+  .od-PdfViewer-container,
+  /* User Avatar */
+  ._14ggU2yZvNol5U91gfmYQA img,
+  /* Information Pane Icon */
+  .InfoPane-itemDetails-icon img,
+  /* Progress Icon */
+  .OperationMonitor-itemType{
+      filter: invert(1);
+  }
+  
+  .ms-Tile-link * {
+      color: white;
+  }
+  
+  /* Removes Drag Files Here Hint */
+  img.od-DragAndDropHint-file,
+  .od-DragAndDropHint-text.od-DragAndDropHint-text--grid {
+      display: none;
+  }
 }
