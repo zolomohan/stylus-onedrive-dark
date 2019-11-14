@@ -23,7 +23,11 @@
   /* Progress Icon */
   .OperationMonitor-itemType,
   /* Share By  Link Social Media */
-  .od-SharingByLink-icon img{
+  .od-SharingByLink-icon img,
+  /* Premium Card Office 365 Icons */
+  .od-PlanCardTest-officeAppIcon,
+  .od-Button.od-PlanCardTest-buttonPrimary,
+  .ms-Icon--CheckMark{
       filter: invert(1);
   }
   
