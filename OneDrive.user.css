@@ -11,6 +11,8 @@
   /* Office 365 Icons in App Launcher */
   .ms-svg-Icon,
   .ms-Image img,
+  /* File/Folder in List Mode */
+  .od-DetailsRow-cell--FileIcon,
   /* File/Folder Tiles */
   .ms-Tile-link,
   .od-ItemTile2-icon img,
