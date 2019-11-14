@@ -3,7 +3,7 @@
   .ms-Callout,
   .od-ItemTile2-icon,
   #appLauncher,
-  #O365fpcontainerid{
+  #O365fpcontainerid {
       filter: invert(0.92);
       background-color: white;
   }
@@ -19,9 +19,11 @@
   .ms-Tile-nameplate,
   /* File Thumbnail Image */
   .od-ItemTile2-image,
+  .od-ImageTile--isDimensioned,
+  /* Folder Content Thumbnail */
+  .ms-FolderCover-content,
   /* PDF Reader */
   .od-PdfViewer-container,
-  .od-ImageTile--isDimensioned,
   /* User Avatar */
   ._14ggU2yZvNol5U91gfmYQA img,
   /* Information Pane Icon */
@@ -33,7 +35,7 @@
   /* Premium Card Office 365 Icons */
   .od-PlanCardTest-officeAppIcon,
   .od-Button.od-PlanCardTest-buttonPrimary,
-  .ms-Icon--CheckMark{
+  .ms-Icon--CheckMark {
       filter: invert(1);
   }
   
