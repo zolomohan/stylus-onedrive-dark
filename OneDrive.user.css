@@ -1,11 +1,14 @@
 @-moz-document domain("onedrive.live.com") {
   .od-BasePage,
   .ms-Callout,
-  .od-ItemTile2-icon {
+  .od-ItemTile2-icon,
+  #appLauncher{
       filter: invert(0.92);
       background-color: white;
   }
   
+  /* Office 365 Icons in App Launcher */
+  .ms-svg-Icon,
   .ms-Image img,
   /* File/Folder Tiles */
   .ms-Tile-link,
@@ -17,7 +20,9 @@
   /* Information Pane Icon */
   .InfoPane-itemDetails-icon img,
   /* Progress Icon */
-  .OperationMonitor-itemType{
+  .OperationMonitor-itemType,
+  /* Share By  Link Social Media */
+  .od-SharingByLink-icon img{
       filter: invert(1);
   }
   
