@@ -10,14 +10,18 @@
   
   /* Office 365 Icons in App Launcher */
   .ms-svg-Icon,
-  .ms-Image img,
+  /* Preview File Icon */
+  .OneUp-other-fileIcon,
   /* File/Folder in List Mode */
   .od-DetailsRow-cell--FileIcon,
-  /* File/Folder Tiles */
-  .ms-Tile-link,
-  .od-ItemTile2-icon img,
+  /* Folders in Tiles View */
+  .ms-Tile-content,
+  .ms-Tile-nameplate,
+  /* File Thumbnail Image */
+  .od-ItemTile2-image,
   /* PDF Reader */
   .od-PdfViewer-container,
+  .od-ImageTile--isDimensioned,
   /* User Avatar */
   ._14ggU2yZvNol5U91gfmYQA img,
   /* Information Pane Icon */
