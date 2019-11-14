@@ -2,7 +2,8 @@
   .od-BasePage,
   .ms-Callout,
   .od-ItemTile2-icon,
-  #appLauncher{
+  #appLauncher,
+  #O365fpcontainerid{
       filter: invert(0.92);
       background-color: white;
   }
