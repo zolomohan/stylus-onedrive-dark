@@ -8,7 +8,12 @@
       background-color: white;
   }
 
-  /* File Icon */
+  .od-Panel{
+      box-shadow: none;
+      border-left: 1px solid #dadada;
+  }
+
+  /* File Type Icon */
   .od-ItemTile2-icon div img,
   /* Personal Vault Setup Modal User Image  */
   .od-Persona-image,
